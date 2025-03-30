@@ -29,7 +29,7 @@
     return (
       <div className="App">
         <header className="App-header">
-          <h1>Chatty app</h1>
+          <h1>Chatty app hi</h1>
 
           {chat.map((payload, index) => {
             return (
