@@ -3,7 +3,7 @@
   import io from "socket.io-client";
   import { nanoid } from "nanoid";
 
-  const socket = io.connect("https://chatty-backend-9pvt.onrender.com");
+const socket = io.connect("https://chatty-backend-9pvt.onrender.com");
   const username = nanoid(4);
 
   function App() {
